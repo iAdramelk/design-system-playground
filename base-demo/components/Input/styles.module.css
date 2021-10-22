@@ -1,0 +1,24 @@
+.wrapper {
+  border: 1px solid currentColor;
+  color: var(--color-red);
+  border-radius: var(--radii-md);
+
+  &.size-sm {
+    padding: var(--spacing-0-5);
+    font-size: var(--text-sm);
+  }
+
+  &.size-md {
+    padding: var(--spacing-1);
+    font-size: var(--text-md);
+  }
+
+  &.size-lg {
+    padding: var(--spacing-2);
+    font-size: var(--text-lg);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

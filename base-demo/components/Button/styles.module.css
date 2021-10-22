@@ -1,0 +1,37 @@
+.wrapper {
+  appearance: none;
+  border: 1px solid currentColor;
+  border-radius: var(--radii-md);
+  background: transparent;
+
+  &.color-red {
+    color: var(--color-red);
+  }
+
+  &.color-green {
+    color: var(--color-green);
+  }
+
+  &.color-blue {
+    color: var(--color-blue);
+  }
+
+  &.size-sm {
+    padding: var(--spacing-0-5);
+    font-size: var(--text-sm);
+  }
+
+  &.size-md {
+    padding: var(--spacing-1);
+    font-size: var(--text-md);
+  }
+
+  &.size-lg {
+    padding: var(--spacing-2);
+    font-size: var(--text-lg);
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,8 @@
+{  
+  "eslint.workingDirectories": [
+    "base-demo",
+    "stitches-demo",
+    "tailwind-demo",
+    "xstyled-demo"
+  ]
+}

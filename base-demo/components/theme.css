@@ -1,0 +1,22 @@
+:root {
+  --color-red: #F00;
+  --color-green: #0F0;
+  --color-blue: #00F;
+
+  --radii-sm: 2px;
+  --radii-md: 4px;
+  --radii-lg: 8px;
+
+  --module: 8px;
+
+  --spacing-0-5: 4px; 
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+
+  --text-sm: 12px;
+  --text-md: 16px;
+  --text-lg: 20px;
+}
